@@ -1,3 +1,4 @@
+import Favicons from "@/components/Favicons";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
@@ -11,6 +12,7 @@ class MyDocument extends Document {
       <Html lang="en-AU">
         <Head>
           <link rel="stylesheet" href="https://use.typekit.net/vzt1cdo.css" />
+          <Favicons />
         </Head>
         <body>
           <Main />

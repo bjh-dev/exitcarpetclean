@@ -18,6 +18,7 @@
     "paths": {
       "@/lib/*": ["./lib/*"],
       "@/layout/*": ["./layout/*"],
+      "@/public/*": ["./public/*"],
       "@/components/*": ["./components/*"]
     }
   },
