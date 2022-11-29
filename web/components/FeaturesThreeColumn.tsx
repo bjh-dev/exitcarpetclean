@@ -30,7 +30,7 @@ const FeaturesThreeColumns = () => {
           {features.map((feature) => (
             <div
               key={feature.name}
-              className="rounded-md bg-gray-200 p-8 text-center dark:bg-gray-700"
+              className="rounded-md bg-gray-200 p-8 text-center dark:bg-gray-800"
             >
               <dt>
                 <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-md bg-green-600">

@@ -10,7 +10,6 @@ const ThemeSwitcher = () => {
   if (!mounted) {
     return null;
   }
-
   return (
     <button
       aria-label="Toggle Dark Mode"
@@ -18,7 +17,7 @@ const ThemeSwitcher = () => {
       className="flex items-center justify-center rounded-lg transition-all"
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
     >
-      <div className="flex items-center rounded-full bg-gray-200 px-6 py-2 dark:bg-gray-700">
+      <div className="flex items-center rounded-full px-6 py-2">
         {mounted && (
           <svg
             xmlns="http://www.w3.org/2000/svg"

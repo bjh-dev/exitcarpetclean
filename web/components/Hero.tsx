@@ -6,8 +6,8 @@ const Hero = (props) => {
   return (
     <section className="py-24">
       <div className="container">
-        <div className="flex items-center">
-          <div className="flex max-w-lg flex-col space-y-14">
+        <div className="items-center lg:flex">
+          <div className="max-w-lg flex-col space-y-14 lg:flex">
             <h2 className="font-futura-bold text-6xl tracking-tight">
               We take care of the carpet so you can move out with ease.
             </h2>
@@ -18,7 +18,7 @@ const Hero = (props) => {
             </p>
             <Button label="Schedule your clean" href="/schedule" size="lg" />
           </div>
-          <div className="pl-24">
+          <div className="mt-12 lg:pl-24">
             <Image
               className="aspect-[4/3] w-1/2 rounded-lg object-cover object-center"
               src="/couple-carpet.jpeg"

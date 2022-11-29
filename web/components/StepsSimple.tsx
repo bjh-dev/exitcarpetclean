@@ -38,7 +38,10 @@ const StepsSimple = () => {
           <p className="text-xl">We make carpet cleaning a breeze.</p>
         </div>
         <div className="lg:border-t lg:border-gray-200">
-          <nav className="mx-auto max-w-7xl" aria-label="Progress">
+          <nav
+            className="mx-auto max-w-7xl dark:bg-gray-800"
+            aria-label="Progress"
+          >
             <ol
               role="list"
               className="overflow-hidden rounded-md lg:flex lg:rounded-none lg:border-l lg:border-r lg:border-gray-200"
