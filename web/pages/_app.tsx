@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout {...pageProps}>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </ThemeProvider>
   );
 }
