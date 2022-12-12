@@ -59,7 +59,7 @@ const Process = () => {
             clean.
           </p>
         </div>
-        <ul className="grid grid-cols-2 grid-rows-4">
+        <ul className="grid-rows-auto grid grid-cols-2 lg:grid-rows-4">
           {steps.map((step, id) => (
             <li key={id} className="col-span-2 mr-6 lg:col-span-1">
               <div className="mt-6 flex">
