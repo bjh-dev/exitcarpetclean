@@ -16,7 +16,7 @@ import ThemeSwitcher from "@/components/ThemeSwitcher";
 const navigation = [
   {
     name: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/exitcarpetclean/",
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -29,7 +29,7 @@ const navigation = [
   },
   {
     name: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/exitcarpetclean/",
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -51,6 +51,8 @@ const Footer = () => {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-green-600"
             >
               <span className="sr-only">{item.name}</span>
